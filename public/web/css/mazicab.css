@@ -1,0 +1,413 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900i')
+ body{
+     font-family: 'Roboto', sans-serif;
+	 margin:0;
+	 padding:0;
+}
+.nav-tabs .nav-link:focus{
+text-decoration:none;}
+
+ a:hover{
+     text-decoration: none!important;
+	 color:#ff9934;
+}
+h2{padding-bottom: 3%;
+}
+a.active{
+color:#ff9934 !important;}
+a.fa {
+    color:#000;
+	}
+ a{
+     font-family: 'Roboto', sans-serif;
+	 color:#000;
+}
+ ul, h1, h2, h3, h4, h5, h6, p{
+     
+     font-family: 'Roboto', sans-serif;
+}
+ li{
+     list-style:none;
+     font-family: 'Roboto', sans-serif;
+}
+p{
+     font-family: 'Roboto', sans-serif;
+}
+.form-control {
+    border-radius: 5px;
+}
+ .nav-tabs .nav-link:hover {
+border:none;}
+
+
+.top-header {
+    width: 100%;
+    height: 50px;
+}
+.top-header li {
+    padding: 12px;
+}
+/* menu area-==-=-=-=-=-*/
+.top-header ul{
+	display:flex;
+	float: right;
+}
+.menu a{
+	font-size:16px;
+	font-weight:400;
+	color:#000 !important;
+	margin: 0 10px;
+}
+.menu ul.navbar-nav {
+    margin: 0 0 0 auto;
+}
+.banner{
+background-image:url("../images/banner.jpg");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+padding:10%;
+text-align:center;
+    margin: -48px 0;}
+
+.banner h1 {
+    color: #fff;
+    font-size: 42px;
+	
+}
+
+.taxi-area-box {
+    background-color: #fff;
+    padding: 35px;
+	margin: 30px 0 0 0;
+	border-radius: 5px;
+}
+.taxi-area-box a {
+    font-size: 18px;
+    font-weight: 500;
+}
+.taxi-area-box .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: #ff9934;
+}
+.submit {
+    background-color: #ff9934;
+    color: #fff;
+    padding: 9px 90px;
+}
+#nav-tabContent {
+    margin: 20px 0 0 0;
+}
+.banner #inlineFormInputName2 {
+    width: 25%;
+    height: 44px;
+}
+.menu-items {
+    background-color: #fff;
+    box-shadow: 0px 17px 14px #00000026;
+    border-radius: 5px;
+}
+/*------ =-=-=-= services area=-=-=-=-=-*/
+.services{
+margin-top:100px;}
+.services_items2 {
+    padding: 0;
+}
+.services p {
+    font-size: 14px;
+}
+
+.enjoy h6 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.enjoy p {
+    font-size: 16px;
+    text-align: justify;
+}
+.enjoy a {
+    background-color: #ff9934;
+    color: #fff;
+    font-size: 17px;
+    padding: 8px 13px;
+    border-radius: 5px;
+}
+
+.about{
+background-image:url("../images/about_banner.png	");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+padding:5%;
+margin:0 0 50px 0;
+}
+
+.blog h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+	padding: 20px 0;
+
+}
+.blog h4 span{
+font-weight:400;}
+
+.blog h6 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #ff9934;
+    margin: 12px 0 7px 0;
+    border-left: 3px solid #ff9934;
+    padding: 0 0 0 22px;
+}
+.blog a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.check-items {
+    padding: 0;
+}
+.app_store_1 h6 {
+    font-size: 16px;
+    color: #ff9934;
+}
+.app_store h4 {
+    font-size: 42px;
+    font-weight: 600;
+}
+.app_store p {
+    font-size: 15px;
+    margin: 0;
+}
+.check_items_box_area
+{
+padding: 20px 0 0 0;
+}
+.check_items_box_area .fa.fa-check {
+    color: #ff9934;
+}
+.app {
+    padding: 0;
+}
+.app_store {
+    padding: 50px 0;
+}
+.subscribe {
+    background-color: #ff9934;
+}
+.subs {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.subscribe h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 31px;
+}
+.subscribe h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 5px 0 0 0;
+}
+.contact h3 {
+    width: 100%;
+    font-size: 29px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.send {
+    background-color: #ff9934;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 47px;
+    border-radius: 5px;
+	margin: 0 0 0 14px;
+}
+.footer {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.footer_one p {
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+}
+
+.footer_two h4 {
+    font-size: 24px;
+    color: #fff;
+}
+.footer_two h6 {
+    font-size: 15px;
+    color: #fff;
+}
+
+.bottom-subs {
+    background-color: #ff9934;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.copyright p {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: #bdbcbc;
+}
+.copyright {
+    background-color: #2a2a2a;
+}
+.icons li {
+    display: inline;
+    float: right;
+    padding: 25px 0 0 20px;
+}
+.cars {
+    padding: 50px 0 0 0;
+}
+.cars h5 {
+    font-size: 20px;
+    text-align: center;
+    background-color: #f3f3f3;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.cars h5 span {
+    background-color: #ff9934;
+    border-radius: 50%;
+    padding: 9px 12px;
+    color: #fff;
+    margin: 0 35px;
+}
+
+
+/*======media query-==-=-=-=-=-=-=*/
+
+@media (max-width: 1024px)
+{
+
+.submit {
+
+    padding: 9px 42px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px)
+{
+
+.submit {
+
+    padding: 9px 30px;
+}
+.cars h5 {
+    font-size: 14px;
+}
+
+
+
+}
+
+
+
+
+
+@media (max-width: 767px)
+{
+.banner #inlineFormInputName2 {
+    width: 100%;
+    height: 44px;
+}
+.banner h1 {
+    font-size: 28px;
+}
+.services_items
+{text-align:center;}
+
+.enjoy h6 {
+    font-size: 24px;
+    padding: 10px 0 0 0;
+}
+.blog h6 {
+    font-size: 16px;
+
+}
+.blog_1 img{
+    padding: 20px 0 0 0;
+
+}
+.blog h4{padding:0;}
+
+
+.blog_1 {
+    text-align: center;
+}
+.blog h6{border: none}
+
+.blog h6 {
+
+    margin: 12px 0 0;
+    padding: 0;
+}
+.app_store h4 {
+    font-size: 32px;}
+
+.subscribe {
+    padding: 10px 0;
+}
+
+.footer_two {
+    padding: 10px 0 0 0;
+}
+.mazi_with{
+    padding: 20px 0;
+}
+.cars h5{
+    width: 77%;
+}
+
+}
+
+@media (max-width: 480px)
+{
+
+.banner h1 {
+    font-size: 22px;
+    padding-top: 40px;
+}
+.taxi-area-box a {
+
+    margin: 0 auto;
+}
+.app {
+    padding: 12px 15px;
+}
+.cars h5 {
+    width: 100%;
+}
+.cars h5 span {
+    margin: 0px 15px;
+}
+
+}
+
+
+
+
+

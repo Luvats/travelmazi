@@ -1,0 +1,8 @@
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+/vendor
+/node_modules
+/bootstrap/cache
+/public/web/img/

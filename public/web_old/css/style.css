@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+ body{
+     font-family:open sans;
+	 margin:0;
+	 padding:0;
+}
+ h2 span{
+border-bottom:4px solid #ff9934;
+}
+ a:hover{
+     text-decoration: none!important;
+}
+h2{
+font-size:39px;
+font-weight:800;
+}
+a.fa {
+    color:#000;
+	}
+ a{
+     font-family:open sans;
+	 font-weight:600;
+}
+ ul, h1, h2, h3, h4, h5, h6, p{
+     
+     font-family:open sans;
+}
+ li{
+     list-style:none;
+     font-family:open sans;
+}
+p{
+     font-family:open sans;
+}
+
+
+/*--====-==-=header-=-=-=-=-=-=-=*/
+header {
+background: #0000005e;
+}
+a.navbar-brand {
+color: #fff;
+font-size: 26px;
+}
+.menu ul.navbar-nav {
+margin: 0 0 0 auto;}
+.menu li.nav-item {
+margin-right: 14px;
+}
+.menu a.nav-link {
+    color: #fff;
+    font-weight: 500;
+}	
+.sign  {
+background-color: #ff9933;
+color: #fff;
+padding: 11px 6px;
+border-radius: 6px;
+}
+.sign a{
+color:#fff;
+}
+.support  {
+background-color: #4d4e4d;
+color: #fff;
+padding: 11px 15px;
+border-radius: 6px;
+}
+.support a{
+color:#fff;
+}
+
+/*-=-=-=-banner===-=-=-*/
+.banner{
+background-image:url(..//img/banner.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+height: 628px;
+}
+.banner .row {
+/* background-color: #fff;*/
+ border-radius: 10px;
+}
+.banner ul#myTab {
+/* background-color: #fff;
+box-shadow: 0px 3px 17px #d4cece;
+border-radius: 10px; */
+}
+section.hero-wrapper {
+padding-top: 7%;
+}
+.flight_1 .nav-tabs .nav-item {
+margin:0 29px;
+}
+.flight_1 {
+    text-align: center!important;
+    margin-bottom: -39px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+color:#ff9933;
+border:none;
+}
+#flight .nav-tabs {
+border-bottom: 1px solid #dee2e6;
+border: none;
+margin-top: 23px;
+}
+.banner form.row.align-items-center {
+border: 1px solid #d0d0d0;
+}
+.banner .form-group input.form-control {
+border: none;
+padding: 0;
+}
+.banner .input-box {
+border-left: 1px solid #e0dcdc;
+padding: 1px 19px;
+}
+.from .input-box {
+border: none;
+}
+.flight_from label.label-text {
+font-weight: 700;
+font-size: 15px;
+}
+.travel a.dropdown-toggle.dropdown-btn {
+    padding: 0;
+    border: none;
+}
+.search {
+    text-align: center;
+    margin: 40px 0 -40px;
+}
+.search a {
+    background-color: #ff9933;
+    color: #fff;
+    padding: 11px 64px;
+    border-radius: 29px;
+    border: none;
+}
+.offer .row {
+background: none;
+}
+.offer {
+padding-top: 6%;
+}
+/*-=-=-=hotel-=-==-=*/
+.destination {
+margin-top: 33px;
+}
+.desti .input-box{
+border:none !important;}
+.destination label.label-text {
+font-size: 15px;
+font-weight: 600;
+}
+.holiday label.label-text {
+font-size: 15px;
+font-weight: 600;
+}
+.holiday{
+margin-top:5px;}
+.plus{
+padding:0!important;}
+.plus ul#myTab2 {
+    border: none;
+    margin-top: 15px;
+}
+/*-=-=-=visa-=-==-=*/
+.visa {
+margin-top:60px;}
+.visa label.label-text {
+font-size: 15px;
+font-weight: 600;
+}
+select.select-contain-select {
+    border: none;}
+/*-=-=-=about-=-==-=*/
+.about {
+margin: 13% 0 4% 0;
+}
+.enjoy a {
+padding: 6px 7px;
+background-color: #ff9933;
+color: #fff;
+border-radius: 7px;
+box-shadow: 1px 3px 6px #aba7a7;
+}
+.enjoy {
+padding: 20% 0;
+}
+/*-=-=-=slider-=-==-=*/
+.deals a {
+    color: black;
+}
+.deals h3 {
+	font-size: 36px;
+	font-weight: 800;
+}
+.deals .d-block.col-md-6 {
+	padding: 0 36px;
+}
+.deals i.fa.fa {
+	color: #969292;
+	font-size: 39px;
+}
+
+.d-block .col-md-6{
+	background-image:url(..//img/slide_1.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:10% 0; 
+}
+/*01-Oct-2020 Home page slider**/
+.deals {
+    background-color: #f8f7f7;
+	padding: 40px 0;
+}
+.coupon-code{
+	display: table-cell; 
+	text-align: left;
+}
+.book-btn{
+	display: table-cell;
+	text-align: right;
+}
+.media-footer {
+    display: table;
+    width: 100%;
+    padding: 30px 0 0;
+}
+.coupon-box .media-body h5 {
+    font-weight: 700;
+    color: #000;
+}
+.media-footer h5 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.media-footer  .book-btn h5 a{
+    color: #ff9933;
+}
+.coupon-box a small {
+    color: #ff9933;
+    font-weight: 500;
+}
+.coupon-box .media-body p {
+    color: #000;
+    font-size: 16px;
+}
+.coupon-box {
+    box-shadow: 1px -1px 6px #d0c9c9;
+    background: #f8f6f7;
+    border-radius: 8px;
+    padding: 20px;
+}
+.carousel-item {
+    padding: 20px 30px;
+}
+.coupon-slider-div .carousel-control-next, .carousel-control-prev {
+   width: 0;
+}
+.coupon-deals-div {
+    box-shadow: -1px 1px 6px 1px #d0c9c9;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+.coupon-deals-div .nav-tabs .nav-link {
+    border-style: none;
+}
+.coupon-deals-div .nav-tabs {
+    border-bottom: 0;
+}
+.coupon-deals-div  .nav.nav-tabs a select.form-control{
+    border-style: none;
+    font-weight: 600;
+    color: #000;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: inherit !important;
+    height: inherit;
+}
+.coupon-deals-div  .nav.nav-tabs a select.form-control:focus {
+    box-shadow: inherit;
+}
+.search-fields-container {
+    background: #fff;
+    padding: 28px;
+    border-radius: 10px;
+}
+.banner ul#myTab {
+    background-color: #fff;
+    box-shadow: 4px 8px 27px #e0dbdb;
+    border-radius: 10px;
+    width: 83%;
+    margin: 0 auto;
+	display: inline-flex;
+}
+
+
+/*.trip .nav-tabs .nav-link.active  .custom-control-label::after {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e);
+}
+ .custom-control-label::after {
+    background: inherit !important;
+    background: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e) !important;
+}
+.trip .nav-tabs .nav-link.active  .custom-radio .custom-control-label::before {
+    background: #ff9933;
+}*/
+.trip a {
+    background: none !important;
+}
+.row {
+    margin: 0 !important;
+}
+.edit {
+    display: none;
+}
+.hotel_box {
+    padding-top: 35px;
+}
+.holiday_box{
+padding-top: 3px;
+}
+/*-=-=-=tour-=-==-=*/
+.tour {
+    padding: 40px 0 25px;
+}
+.tour h6 {
+    padding: 6px 0 0;
+    margin: 0;
+}
+.tour-box {
+    margin: 0 0 15px;
+}
+/*-=-=-=Footer-=-==-=*/
+.footer {
+    text-align: center;
+    background: #f3f3f3;
+}
+.footer  {
+    padding: 30px 0;
+}
+.footer h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 11px;
+}
+.copy {
+	background-color: #000;
+}
+.copy p {
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

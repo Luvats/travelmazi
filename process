@@ -1,0 +1,12 @@
+Update:
+1. Update cities table. 
+2. add flight_booking table.
+3. change google login redirect url in google cloud and in config/service.php.
+
+
+Ending the day(26,May 2021), following things fixed:
+1. Removed duplicate cities in filter and also shown country into it desiger have to design same as makemytripe. (Screenshot-1)
+2. Added google login but last step is pending as google required https protocol but our is http. (Screenshot-2 & Screenshot-3)
+
+
+Pending: Add muliticity settings if flight for two cities available or available for one it will converted to related type.
